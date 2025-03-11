@@ -1,0 +1,151 @@
+/* Estilo para o nome 'Academia' na barra de navegação */
+.navbar-brand {
+  color: #000 !important; /* Define a cor do texto como preto */
+}
+
+.navbar-brand:hover {
+  color: #0056b3 !important; /* Altera a cor ao passar o mouse (opcional) */
+}
+
+/* Estilo para os links da Navbar */
+.navbar-nav .nav-link {
+  color: #000 !important; /* Define a cor do texto como preto */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #0056b3 !important; /* Altera a cor ao passar o mouse (opcional) */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url('./assets/premium_photo-1661301057249-bd008eebd06a.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #333;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #007bff;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #0056b3;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.navbar {
+  background-color: transparent !important; /* Torna a navbar transparente */
+  box-shadow: none !important; /* Remove qualquer sombra */
+  padding-top: 10px; /* Ajusta o padding da navbar para não cobrir muito conteúdo */
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.9); /* Fundo branco com opacidade */
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  font-size: 1rem;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+  color: #fff;
+}
+
+.pagination {
+  margin-top: 20px;
+}
+
+.pagination .page-item.active .page-link {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.pagination .page-link {
+  color: #007bff;
+}
+
+.pagination .page-link:hover {
+  color: #0056b3;
+}
+
+.card {
+  margin-bottom: 1.5rem;
+  border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #555;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.dropdown-menu {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-item {
+  color: #333;
+  padding: 10px 20px;
+  transition: background-color 0.3s;
+}
+
+.dropdown-item:hover {
+  background-color: #f1f1f1;
+  color: #007bff;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+}

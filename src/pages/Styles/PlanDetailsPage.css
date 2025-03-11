@@ -1,0 +1,109 @@
+/* Estilos para a página de detalhes do plano */
+.plan-details-page {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  /* Estilo do Card */
+  .plan-details-page .card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+/* Estilo da Imagem */
+.plan-details-page .card img {
+    width: 100%;
+    max-height: 400px; /* Ajuste da altura máxima da imagem */
+    object-fit: cover; /* Garante que a imagem se ajuste sem distorção */
+    border-bottom: 1px solid #373737;
+  }
+  
+  
+  /* Estilos do conteúdo dentro do Card */
+  .plan-details-page .card-body {
+    padding: 2rem;
+  }
+  
+  /* Título do Plano */
+  .plan-details-page .card-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-top: 1rem;
+  }
+  
+  /* Preço do Plano */
+  .plan-details-page .card-price {
+    font-size: 1.6rem;
+    color: #f2ff00;
+    font-weight: bold;
+    margin-top: 1rem;
+  }
+  
+  /* Lista de Benefícios */
+  .plan-details-page .card-benefits {
+    margin-top: 1.5rem;
+  }
+  
+  .plan-details-page .card-benefits li {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* QR Code e Botão */
+  .plan-details-page .card-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  
+  .plan-details-page .card-footer .qr-code {
+    margin-bottom: 1.5rem;
+  }
+  
+  .plan-details-page .card-footer .btn {
+    width: 100%;
+    padding: 15px;
+    background-color: #eaee00;
+    border-color: #000000;
+    color: rgb(0, 0, 0);
+    font-size: 1.1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .plan-details-page .card-footer .btn:hover {
+    background-color: #d1d400;
+    border-color: rgb(79, 79, 79);
+    font-size: 1.2rem;
+    color: rgb(123, 123, 123);
+  }
+  
+  /* Estilo para Responsividade */
+  @media (max-width: 768px) {
+    .plan-details-page .card-body {
+      padding: 1rem;
+    }
+  
+    .plan-details-page .card-title {
+      font-size: 1.5rem;
+    }
+  
+    .plan-details-page .card-price {
+      font-size: 1.4rem;
+    }
+  
+    .plan-details-page .card-footer .btn {
+      font-size: 1rem;
+      padding: 12px;
+    }
+  
+    /* Imagem em telas menores */
+    .plan-details-page .card img {
+      height: 250px; /* Ajuste da altura da imagem em telas menores */
+    }
+  }
+  

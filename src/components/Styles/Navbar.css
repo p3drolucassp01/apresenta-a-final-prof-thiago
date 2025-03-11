@@ -1,0 +1,89 @@
+/* Navbar personalizada */
+.navbar {
+    background-color: #343a40; /* Cor escura sólida para o fundo da navbar */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave para dar destaque */
+    transition: background-color 0.3s ease; /* Transição suave para mudanças de cor */
+    z-index: 999; /* Garante que a navbar fique sempre visível acima de outros elementos */
+  }
+  
+  .navbar-brand img {
+    height: 40px; /* Tamanho fixo para o logo */
+    width: auto;
+  }
+  
+  .navbar-toggler {
+    border-color: #007bff; /* Cor da borda do botão de alternância */
+  }
+  
+  .navbar-toggler-icon {
+    background-color: #007bff; /* Cor do ícone de hambúrguer */
+  }
+  
+  .navbar-nav .nav-link {
+    color: #ffffff !important; /* Cor branca para os links */
+    font-size: 1.1rem; /* Tamanho do texto */
+    padding: 8px 12px; /* Padding para os links */
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #007bff !important; /* Cor do link ao passar o mouse */
+  }
+  
+  .navbar-nav .nav-link.active {
+    font-weight: bold; /* Deixar o link ativo em negrito */
+  }
+  
+  .navbar-collapse {
+    justify-content: flex-end; /* Alinha os links à direita */
+  }
+  
+  .dropdown-toggle {
+    color: #ffffff !important;
+    background-color: transparent !important; /* Deixa o fundo transparente */
+    border: none; /* Remove bordas do botão suspenso */
+  }
+  
+  .dropdown-menu {
+    background-color: #343a40; /* Cor do fundo do menu suspenso */
+    border-radius: 5px; /* Arredonda as bordas */
+  }
+  
+  .dropdown-item {
+    color: #ffffff !important;
+    padding: 10px 20px;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #007bff; /* Cor ao passar o mouse no item */
+    color: #fff;
+  }
+  
+  /* Efeito de hover no menu */
+  .navbar-nav .nav-link:hover {
+    background-color: #0056b3; /* Adiciona um fundo azul mais escuro ao passar o mouse sobre os links */
+    border-radius: 5px; /* Deixa os links com bordas arredondadas */
+  }
+  
+  @media (max-width: 768px) {
+    .navbar {
+      padding: 10px 0;
+    }
+  
+    .navbar-nav {
+      text-align: center; /* Alinha os links no centro quando em mobile */
+    }
+  
+    .navbar-nav .nav-link {
+      font-size: 1.2rem; /* Aumenta o tamanho da fonte no mobile */
+      padding: 15px 0;
+    }
+  
+    .navbar-toggler {
+      border-color: #007bff; /* Define a borda azul para o botão de alternância */
+    }
+  
+    .navbar-toggler-icon {
+      background-color: #007bff; /* Cor do ícone de hambúrguer */
+    }
+  }
+  
