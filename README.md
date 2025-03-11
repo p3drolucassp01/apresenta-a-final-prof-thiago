@@ -17,6 +17,7 @@
 
 ## Equipe de Desenvolvimento
 - **Pedro Lucas**
+- **Luis Vilas**
 - **Sérgio Rennan**
 
 ---
